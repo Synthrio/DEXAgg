@@ -1,4 +1,4 @@
-# DEX Aggregator + SDK with LayerZero Cross-Chain Communication
+# DEX Aggregator based on LayerZero Cross-Chain Communication
 
 This project is a DEX aggregator and SDK that leverages LayerZero's cross-chain communication capabilities to enable swapping of tokens across multiple chains using preferred synth routes.
 
