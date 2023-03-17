@@ -4,11 +4,16 @@ pragma solidity ^0.8.0;
 import "@layerzerolabs/contracts/contracts/app/NonblockingLzApp.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@uniswap/v3-periphery/contracts/interfaces/ISwapRouter.sol";
+import "./BaseWrappedSynthr.sol";
+import "@uniswap/v3-periphery/contracts/interfaces/ISwapRouter.sol";
+
 
 contract DestinationChainUA is NonblockingLzApp {
     address private _uniswapRouter;
     address private _syAsset;
     address private _nativeAsset;
+    address private constant BASE
+
 
     constructor(
         address layerzero,
